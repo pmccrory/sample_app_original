@@ -7,8 +7,10 @@ gem 'rails', '4.1.0'
 gem 'sqlite3'
 
 group :development, :test do
-  gem 'rspec-rails',      ">= 2.0.0.beta"
+  gem 'rspec-rails',      ">= 2.0.1"
 end
+
+gem 'webrat', '0.7.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
